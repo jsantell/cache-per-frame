@@ -1,0 +1,29 @@
+{
+  "name": "cache-per-frame",
+  "version": "1.0.0",
+  "description": "Cache the result of a function once per frame",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js -s cachePerFrame -o dist/cache-per-frame.js",
+    "test": "karma start --single-run --browsers ChromeHeadless karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsantell/cache-per-frame.git"
+  },
+  "author": "Jordan Santell",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jsantell/cache-per-frame/issues"
+  },
+  "homepage": "https://github.com/jsantell/cache-per-frame#readme",
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "chai": "^4.1.2",
+    "karma": "^1.7.1",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-mocha": "^1.3.0",
+    "mocha": "^3.5.3"
+  }
+}
