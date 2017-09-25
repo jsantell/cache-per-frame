@@ -55,3 +55,6 @@ Start throttling the function calls once per frame.
 ## License
 
 Apache License Version 2.0 (see [LICENSE])
+
+[LICENSE]: LICENSE
+[dist/cache-per-frame.js]: dist/cache-per-frame.js
